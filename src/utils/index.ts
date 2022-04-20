@@ -1,3 +1,4 @@
+export { getKeys } from './json-get.js';
 export { ClientUtils } from './client-utils.js';
 export { CommandUtils } from './command-utils.js';
 export { FormatUtils } from './format-utils.js';

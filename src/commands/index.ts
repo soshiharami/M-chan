@@ -1,3 +1,4 @@
+export { AddRoleCommand } from './add-role-command.js';
 export { Command, CommandDeferType } from './command.js';
 export { DevCommand } from './dev-command.js';
 export { HelpCommand } from './help-command.js';

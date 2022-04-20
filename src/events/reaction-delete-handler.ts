@@ -12,7 +12,7 @@ const require = createRequire(import.meta.url);
 let Config = require('../../config/config.json');
 let Emoji = require('../../config/emoji.json');
 
-export class ReactionHandler implements EventHandler {
+export class ReactionDeleteHandler implements EventHandler {
 	private rateLimiter = new RateLimiter(
 		Config.rateLimiting.reactions.amount,
 		Config.rateLimiting.reactions.interval * 1000
@@ -36,9 +36,9 @@ export class ReactionHandler implements EventHandler {
 			const id = this.findHoloEmoji(msgReaction.emoji.toString())
 			if (id) {
 				const role = msgReaction.message.guild.roles.cache.find(role => role.id === id)
-				Logger.info(`Start granted role ${role.name} to ${reactor.username}`)
-				await msgReaction.message.guild.members.resolve(reactor).roles.add(role)
-				Logger.info(`Finish granted role ${role.name} to ${reactor.username}`)
+				Logger.info(`Start delete role ${role.name} to ${reactor.username}`)
+				await msgReaction.message.guild.members.resolve(reactor).roles.remove(role)
+				Logger.info(`Finish delete role ${role.name} to ${reactor.username}`)
 			}
 		}
 

@@ -21,6 +21,7 @@ import {
 	GuildLeaveHandler,
 	MessageHandler,
 	ReactionHandler,
+	ReactionDeleteHandler,
 	TriggerHandler,
 } from './events/index.js';
 import { CustomClient } from './extensions/index.js';
@@ -84,6 +85,7 @@ async function start(): Promise<void> {
 	let triggerHandler = new TriggerHandler(triggers);
 	let messageHandler = new MessageHandler(triggerHandler);
 	let reactionHandler = new ReactionHandler(reactions);
+	let reactionDeleteHandler = new ReactionDeleteHandler(reactions);
 
 	// Jobs
 	let jobs: Job[] = [
@@ -100,6 +102,7 @@ async function start(): Promise<void> {
 		commandHandler,
 		buttonHandler,
 		reactionHandler,
+		reactionDeleteHandler,
 		new JobService(jobs)
 	);
 

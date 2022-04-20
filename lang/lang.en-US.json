@@ -1,24 +1,6 @@
 {
     "data": {
         "displayEmbeds": {
-            "welcome": {
-                "title": "Thank you for using {{COM:bot.name}}!",
-                "description": ["{{REF:bot.description}}"],
-                "fields": [
-                    {
-                        "name": "Important {{REF:fields.commands}}",
-                        "value": ["**/{{COM:commands.help}}** - {{REF:commandDescs.help}}"]
-                    },
-                    {
-                        "name": "{{REF:fields.links}}",
-                        "value": [
-                            "{{REF:links.docsEmbed}}",
-                            "{{REF:links.supportEmbed}}",
-                            "{{REF:links.inviteEmbed}}"
-                        ]
-                    }
-                ]
-            },
             "help": {
                 "title": "{{COM:bot.name}} - Help",
                 "description": "{{REF:bot.description}}",
@@ -40,91 +22,8 @@
                     }
                 ]
             },
-            "test": {
-                "description": "Test command works!"
-            },
-            "info": {
-                "title": "{{COM:bot.name}} - Info",
-                "fields": [
-                    { "name": "Author", "value": "{{REF:links.authorEmbed}}" },
-                    {
-                        "name": "{{REF:fields.links}}",
-                        "value": [
-                            "{{REF:links.sourceEmbed}}",
-                            "{{REF:links.docsEmbed}}",
-                            "{{REF:links.donateEmbed}}",
-                            "{{REF:links.supportEmbed}}",
-                            "{{REF:links.inviteEmbed}}"
-                        ]
-                    },
-                    {
-                        "name": "Created With",
-                        "value": ["{{REF:links.templateEmbed}}"]
-                    }
-                ]
-            },
-            "translate": {
-                "title": "{{COM:bot.name}} - Translations",
-                "description": "Thank you to our translators who have made it possible for {{COM:bot.name}} to be used in the following languages. If you are interested in providing a translation, please contact the staff in our [support server]({{COM:links.support}})."
-            },
-            "dev": {
-                "title": "{{COM:bot.name}} - Developer Info",
-                "fields": [
-                    {
-                        "name": "Versions",
-                        "value": [
-                            "**Node.js**: {{NODE_VERSION}}",
-                            "**TypeScript**: {{TS_VERSION}}",
-                            "**ECMAScript**: {{ES_VERSION}}",
-                            "**discord.js**: {{DJS_VERSION}}"
-                        ]
-                    },
-                    {
-                        "name": "Stats",
-                        "value": [
-                            "**Shards**: {{SHARD_COUNT}}",
-                            "**Servers**: {{SERVER_COUNT}} ({{SERVER_COUNT_PER_SHARD}}/Shard)"
-                        ]
-                    },
-                    {
-                        "name": "Memory",
-                        "value": [
-                            "**RSS**: {{RSS_SIZE}} ({{RSS_SIZE_PER_SERVER}}/Server)",
-                            "**Heap**: {{HEAP_TOTAL_SIZE}} ({{HEAP_TOTAL_SIZE_PER_SERVER}}/Server)",
-                            "**Used**: {{HEAP_USED_SIZE}} ({{HEAP_USED_SIZE_PER_SERVER}}/Server)"
-                        ]
-                    },
-                    {
-                        "name": "IDs",
-                        "value": [
-                            "**Hostname**: {{HOSTNAME}}",
-                            "**Shard ID**: {{SHARD_ID}}",
-                            "**Server ID**: {{SERVER_ID}}",
-                            "**Bot ID**: {{BOT_ID}}",
-                            "**User ID**: {{USER_ID}}"
-                        ]
-                    }
-                ]
-            },
-            "linkDocs": {
-                "title": "{{COM:bot.name}} - Documentation",
-                "description": "Click [here]({{COM:links.docs}}/) to view the bot documentation."
-            },
-            "linkDonate": {
-                "title": "{{COM:bot.name}} - Donate",
-                "description": "Support {{COM:bot.name}} by donating with PayPal [here]({{COM:links.donate}})!"
-            },
-            "linkInvite": {
-                "title": "{{COM:bot.name}} - Invite",
-                "description": "Click [here]({{COM:links.invite}}) to invite {{COM:bot.name}} to a server!"
-            },
-            "linkSupport": {
-                "title": "{{COM:bot.name}} - Support",
-                "description": "Need help? Join our [support server]({{COM:links.support}})!"
-            },
-            "linkVote": {
-                "title": "{{COM:bot.name}} - Vote",
-                "description": "Support {{COM:bot.name}} by voting [here]({{COM:links.vote}})!"
+            "role-id": {
+                "description": "これはホロライブ インドネシアの推しロールを付けるメッセージです\n このコマンドはどこでもご利用いただけます\n`/role-id`\n対応したタレントの推しマークを押すと自動でロールが付きます\nロールを削除したい場合はリアクションを外してください\n\n\n\nThis is a message to attach a guess role for hololive Indonesia.\n This command is available everywhere\n `/role-id`\nPressing the corresponding talent's guess symbol will automatically attach the role\n If you want to remove a role, please remove the reaction."
             }
         },
         "validationEmbeds": {

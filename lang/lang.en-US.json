@@ -23,7 +23,16 @@
                 ]
             },
             "role-id": {
-                "description": "これはホロライブ インドネシアの推しロールを付けるメッセージです\n このコマンドはどこでもご利用いただけます\n`/role-id`\n対応したタレントの推しマークを押すと自動でロールが付きます\nロールを削除したい場合はリアクションを外してください\n\n\n\nThis is a message to attach a guess role for hololive Indonesia.\n This command is available everywhere\n `/role-id`\nPressing the corresponding talent's guess symbol will automatically attach the role\n If you want to remove a role, please remove the reaction."
+                "description": "これはホロライブ Indonesia の推しロールを付けるメッセージです\n このコマンドはどこでもご利用いただけます\n`/role-id`\n対応したタレントの推しマークを押すと自動でロールが付きます\nロールを削除したい場合はリアクションを外してください\n\n\n\nThis is a message to attach a guess role for hololive Indonesia.\n This command is available everywhere\n `/role-id`\nPressing the corresponding talent's guess symbol will automatically attach the role\n If you want to remove a role, please remove the reaction."
+            },
+            "role-jp1": {
+                "description": "これはホロライブ 0 ~ 2期 生 ゲーマーズ の推しロールを付けるメッセージです\n このコマンドはどこでもご利用いただけます\n`/role-jp1`\n対応したタレントの推しマークを押すと自動でロールが付きます\nロールを削除したい場合はリアクションを外してください\n\n\n\nThis is a message to attach a guess role for hololive 0 ~ 2 gen and gamers.\n This command is available everywhere\n `/role-jp1`\nPressing the corresponding talent's guess symbol will automatically attach the role\n If you want to remove a role, please remove the reaction."
+            },
+            "role-jp2": {
+                "description": "これはホロライブ 3 ~ 6 期生の推しロールを付けるメッセージです\n このコマンドはどこでもご利用いただけます\n`/role-jp2`\n対応したタレントの推しマークを押すと自動でロールが付きます\nロールを削除したい場合はリアクションを外してください\n\n\n\nThis is a message to attach a guess role for hololive 3 ~ 6 gen.\n This command is available everywhere\n `/role-jp2`\nPressing the corresponding talent's guess symbol will automatically attach the role\n If you want to remove a role, please remove the reaction."
+            },
+            "role-en": {
+                "description": "これはホロライブ English の推しロールを付けるメッセージです\n このコマンドはどこでもご利用いただけます\n`/role-en`\n対応したタレントの推しマークを押すと自動でロールが付きます\nロールを削除したい場合はリアクションを外してください\n\n\n\nThis is a message to attach a guess role for hololive English.\n This command is available everywhere\n `/role-en`\nPressing the corresponding talent's guess symbol will automatically attach the role\n If you want to remove a role, please remove the reaction."
             }
         },
         "validationEmbeds": {

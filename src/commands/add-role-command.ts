@@ -50,7 +50,8 @@ export class AddJp1RoleCommand implements Command {
             Lang.getEmbed('displayEmbeds.role-jp1', data.lang())
         );
 
-        const emoji = getKeys(Emoji.idn);
+        const emoji = getKeys(Emoji.jp1);
+        console.log(emoji);
         for (var i in emoji) {
             await message.react(emoji[i]);
         }
@@ -74,7 +75,7 @@ export class AddJp2RoleCommand implements Command {
             Lang.getEmbed('displayEmbeds.role-jp2', data.lang())
         );
 
-        const emoji = getKeys(Emoji.idn);
+        const emoji = getKeys(Emoji.jp2);
         for (var i in emoji) {
             await message.react(emoji[i]);
         }
@@ -98,7 +99,7 @@ export class AddEnRoleCommand implements Command {
             Lang.getEmbed('displayEmbeds.role-en', data.lang())
         );
 
-        const emoji = getKeys(Emoji.idn);
+        const emoji = getKeys(Emoji.en);
         for (var i in emoji) {
             await message.react(emoji[i]);
         }
